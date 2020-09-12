@@ -1,0 +1,162 @@
+*{
+    background-color: #bfbfbf;
+}
+
+body {
+    max-width: 100%;
+}
+
+#img-div {
+    background-color: transparent;
+}
+
+#img {
+    margin-top: 30px;
+    background-color: #faf7f7;
+    padding: 100px;
+    padding-top: 35px;
+    border-radius: 12px;
+    max-width: 70%;
+    height: auto;
+}
+
+
+
+#twitter {
+    background: #ededed;
+    margin-right: 910px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 50%;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    font-size: 2.8em;
+    background-color: #ededed;
+}
+
+.undertittle {
+    font-size: 24px;
+    margin-top: 25px;
+    background-color: #ededed;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-text {
+    background-color: #ededed;
+    margin: 40px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.Elon-descr {
+    margin-top: -60px;
+    background-color: #faf7f7;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#tribute-info {
+    background-color: #ededed;
+    margin-top: 70px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.facts {
+    background-color: #ededed;
+    padding: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+
+#quote {
+    background: #ededed;
+    font-family: 'Mulish', sans-serif;
+    opacity: 0.8;
+}
+
+.navtext {
+    margin-left: -1200px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: #212020;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+#web-sites {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    margin-left: -670px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 1.5s;
+}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transition: 1s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 1s;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    transition: 1s;
+}
+
+@media(max-width: 480px){
+    body {
+      max-width: 100%;
+    }
+
+    #img {
+      max-width: 90%;
+      padding: 10px;
+      padding-bottom: 40px;
+    }
+
+   .Elon-descr {
+      width: 300px;
+      height: 100%;
+      margin-top: -35px;
+      margin-left: 0;
+      font-size: 14px;
+    }
+}
