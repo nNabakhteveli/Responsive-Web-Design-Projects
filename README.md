@@ -1,2 +1,3 @@
-# Elon Musk Tribute Page Project
-Bio page of Elon Musk. His life, his achievements. There is lot to read and it's really motivating reading how Elon started his career.
+# Product Landing Page
+  This is the third part of the FCC "Responsive Web Design Certification's" final project, which includes HTML && CSS. 
+"GuitarHeaven" is a guitar store (which is not real, I just created it for this project).
