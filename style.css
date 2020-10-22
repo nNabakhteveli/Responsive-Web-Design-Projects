@@ -1,0 +1,69 @@
+body{
+  animation: transitionIn 0.9s;
+}
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 1;
+  }
+}
+
+#change-color{
+  background-color: #55BCC9;
+  transition: 0.8s;
+}
+
+.quote-box{
+  margin: auto;
+  margin-top: 100px;
+  padding: 150px;
+  width: 20%;
+  background: white;
+  border-radius: 44px 19px 38px 18px;
+  -moz-border-radius: 44px 19px 38px 18px;
+  -webkit-border-radius: 44px 19px 38px 18px;
+  border: 0px solid #000000;
+}
+
+#new-quote{
+  color: white;
+  background:#55BCC9;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  border: none;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+} 
+
+#text {
+  color: black;
+  background: none;
+  font-size: 25px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#tweet-quote {
+  color: #55BCC9;
+  font-size: 45px;
+  padding-top: 15px;
+  position: absolute;
+  top: 100px;
+  left: 420px;
+}
+
+#cop{
+  color: white;
+  font-size: 19px;
+  font-family: 'Abel', sans-serif;
+  position: absolute;
+  top: 613px;
+  left: 10px;
+  transition: 1s;
+}
